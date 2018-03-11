@@ -1,0 +1,39 @@
+{
+  "name": "faq",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://github.com/angeldevmanga/faq.git",
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "deploy": "vcg"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.0.0-beta.6",
+    "@vue/cli-service": "^3.0.0-beta.6",
+    "babel-core": "^6.26.0",
+    "normalize.css": "^8.0.0",
+    "push-dir": "^0.4.1",
+    "vue": "^2.5.13",
+    "vue-cli-ghpages": "^1.0.0",
+    "vue-markdown": "^2.2.4",
+    "vue-router": "^3.0.1",
+    "vue-template-compiler": "^2.5.13"
+  },
+  "babel": {
+    "presets": [
+      "@vue/app"
+    ]
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
+}
